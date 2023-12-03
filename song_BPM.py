@@ -1,3 +1,9 @@
+'''
+This program takes all the files in the current working directory and
+checks for the .mp3 files. Then it uses the time series information 
+from load and gets the song BPM.
+'''
+
 import librosa
 import os
 
