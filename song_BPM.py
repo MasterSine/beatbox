@@ -7,7 +7,7 @@ from load and gets the song BPM.
 import librosa
 import os
 
-path = r"INSERT PATH HERE"
+path = os.getcwd();
 length = len(path)
 
 os.chdir(path)
